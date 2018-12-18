@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "MyApp/base.html" %}
+
+{%block body_block %}
+   <h1>Welcome to MANE</h1>
+
+   <h2>{{text|cut:"world"|upper}}</h2>
+   <h3>{{number|add:"99"}}</h3>
+
+{% endblock %}
